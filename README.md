@@ -3,7 +3,7 @@
 A fixed version of Risugami's ModLoader for Minecraft Beta 1.7.3 that fixes the "URI is not hierarchical" exception.
 
 
-## Installing (Using the 'New'/Second-Oldest Launcher) ##
+## Installing (Using the 'New'/Second-Oldest Launcher, Not the _Very_ New One!) ##
 
 1. Open the Launcher and create a new Profile with the Beta 1.7.3 version
 2. Start the game with the new profile and close it again (just so it downloads the jars)
