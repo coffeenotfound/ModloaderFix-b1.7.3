@@ -4,6 +4,7 @@ A fixed version of Risugami's ModLoader for Minecraft Beta 1.7.3 that fixes the 
 
 
 ## Download Links ###
+_Please let me know should any link be broken!_
 * [MCP 4.3](http://minecraft.gamepedia.com/Programs_and_editors/Mod_Coder_Pack) ([Direct](http://www.mediafire.com/file/03d94f13c9ulj5a/mcp43.zip))
 * [Risugami's ModLoader b1.7.3](https://github.com/coffeenotfound/ModloaderFix-b1.7.3/releases) ([Direct](https://github.com/coffeenotfound/ModloaderFix-b1.7.3/raw/master/jars/ModLoader%20b1.7.3%20Original.zip))
 * [ModLoader Fix b1.7.3 v1.0.0](https://github.com/coffeenotfound/ModloaderFix-b1.7.3/releases) ([Direct](https://github.com/coffeenotfound/ModloaderFix-b1.7.3/releases/download/v1.0.0/ModLoader.Fix.b1.7.3-1.0.0.jar))
