@@ -3,6 +3,12 @@
 A fixed version of Risugami's ModLoader for Minecraft Beta 1.7.3 that fixes the "URI is not hierarchical" exception.
 
 
+## Download Links ###
+* [MCP 4.3](http://minecraft.gamepedia.com/Programs_and_editors/Mod_Coder_Pack) ([Direct](http://www.mediafire.com/file/03d94f13c9ulj5a/mcp43.zip))
+* [Risugami's ModLoader b1.7.3](https://github.com/coffeenotfound/ModloaderFix-b1.7.3/releases) ([Direct](https://github.com/coffeenotfound/ModloaderFix-b1.7.3/raw/master/jars/ModLoader%20b1.7.3%20Original.zip))
+* [ModLoader Fix b1.7.3 v1.0.0](https://github.com/coffeenotfound/ModloaderFix-b1.7.3/releases) ([Direct](https://github.com/coffeenotfound/ModloaderFix-b1.7.3/releases/download/v1.0.0/ModLoader.Fix.b1.7.3-1.0.0.jar))
+
+
 ## Installing (Using the 'New'/Second-Oldest Launcher, Not the _Very_ New One!) ##
 
 1. Open the Launcher and create a new Profile with the Beta 1.7.3 version
@@ -18,5 +24,30 @@ A fixed version of Risugami's ModLoader for Minecraft Beta 1.7.3 that fixes the 
 11. Reopen the launcher and create a new profile
 12. Select the new `old_beta b1.7.3-modded` version
 13. Your done! Keep on modding and enjoy the game!
+
+## Setting Up MCP 4.3 ##
+
+1. Extract the MCP zip
+2. Copy `.minecraft/bin` folder into `/jars` (if old launcher)
+    * For new launcher:
+    1. Copy the (modded with the original ModLoader) `b1.7.3-modded.jar` into `/jars/bin` and rename to `minecraft.jar`
+    2. Find and copy the `lwjgl-2.9.0` jar from `/libraries` of the new launcher to `/jars/bin` and rename to `lwjgl.jar`
+    3. Find and copy the `lwjgl_util-2.9.0` jar from `/libraries` of the new launcher to `/jars/bin` and rename to `lwjgl_util.jar`
+    4. Find and copy the `jinput-2.0.5` jar from `/libraries` of the new launcher to `/jars/bin` and rename to `jinput.jar`
+    5. Extract the natives out of `lwjgl-platform-2.9.0-natives-*.jar` to `/jars/bin/natives`
+    6. Extract the natives out of `jinput-platform-2.0.5-natives-*.jar` to `/jars/bin/natives`
+
+3. Run decompile.bat
+    * How to fix 'Couldnt convert string to float':
+    1. Go into `/runtime/commands.py`
+    2. Comment out ('#') lines 502 and 503 (`for bla md5srvlist bla`)
+
+4. Copy the ModLoader Fix source into `/src/...`
+
+## How to Recompile and Build ModLoader Fix ##
+
+1. Run `recompile.bat`
+2. Run `reobfuscate.bat`
+3. Retrieve modded classes from `/reobf` and put into a jar
 
 _Shoutout to Risugami!_
