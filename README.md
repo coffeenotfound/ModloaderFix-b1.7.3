@@ -4,7 +4,7 @@ A fixed version of Risugami's ModLoader for Minecraft Beta 1.7.3 that fixes the 
 
 
 ## Download Links ###
-If you just want to use the fixed version of Modloader you only have to download the 'Modloader Fix'. It's a complete version of Modloader, you don't need to install the broken Modloader first, only the fixed one.
+If you just want to use the fixed version of Modloader you only have to download the 'Modloader Fix'. **It's a complete version of Modloader, you don't need to install the broken Modloader first, only the fixed one.**
 
 _Please let me know should any link be broken!_
 * [MCP 4.3](http://minecraft.gamepedia.com/Programs_and_editors/Mod_Coder_Pack) ([Direct](http://www.mediafire.com/file/03d94f13c9ulj5a/mcp43.zip))
