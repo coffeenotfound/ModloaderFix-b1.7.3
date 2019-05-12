@@ -28,7 +28,7 @@ Other links:
 10. Now you can mod the jar
 11. Reopen the launcher and create a new profile
 12. Select the new `old_beta b1.7.3-modded` version
-13. Your done! Keep on modding and enjoy the game!
+13. Your done!
 
 ## Setting Up MCP 4.3 ##
 
